@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Weather App</p>
+          <h1>Check the weather for any city</h1>
+          <p class="subtitle">
+            Enter one or more cities separated by commas or new lines, then click
+            <strong>Get Weather</strong>.
+          </p>
+        </div>
+      </section>
+
+      <section class="search-panel">
+        <form id="weather-form" class="search-form">
+          <label for="city-input">City name(s)</label>
+          <textarea
+            id="city-input"
+            rows="3"
+            placeholder="Example: London, New York, Tokyo"
+            aria-label="Enter city names separated by commas or new lines"
+          ></textarea>
+
+          <button type="submit" id="search-button">Get Weather</button>
+        </form>
+
+        <div id="status-message" class="status-message" role="status"></div>
+      </section>
+
+      <section id="results" class="results-grid"></section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
