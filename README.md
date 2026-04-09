@@ -6,6 +6,9 @@ The Weather Application allows users to check current weather conditions for one
 
 ---
 
+## 🌐 Live Demo
+👉 [Check out the Weather App](https://prathameshsurve.github.io/weatherapp/)
+
 ## 🚀 Features
 
 ### 🔍 Search Functionality
